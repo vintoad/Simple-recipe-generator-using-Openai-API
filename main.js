@@ -14,7 +14,7 @@ document.getElementById("generateButton").addEventListener("click", async () => 
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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"
+          "Authorization": "Bearer [your_api_key_here]"
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
